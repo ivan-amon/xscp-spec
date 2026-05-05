@@ -1,6 +1,6 @@
 # XSCP Protocol Specification
 
-This repository contains the source files and technical documentation for the **XSCP (XSCP Simple Chat Protocol)**.
+This repository contains the source files and technical documentation for the **XSCP (XSCP Stream Communication Protocol)**.
 
 ## 📖 Official Documentation
 

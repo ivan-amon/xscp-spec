@@ -4,7 +4,7 @@
   <img src="img/logo.svg" alt="XSCP Logo" width="250px">
 </p>
 
-**XSCP** (XSCP Simple Chat Protocol) is a text-based chat protocol.
+**XSCP** (XSCP Stream Communication Protocol) is a text-based communication protocol.
 
 This specification is designed and maintained by [Iván Amón](https://ivanamon.dev), an Engineering student at UPM. It focuses on efficiency and the safety principles of the **Rust** programming language.
 

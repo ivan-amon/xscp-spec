@@ -1,6 +1,6 @@
 [book]
 title = "XSCP Specification"
-description = "Official specification for XSCP (XSCP Simple Chat Protocol)"
+description = "Official specification for XSCP (XSCP Stream Communication Protocol)"
 authors = ["Iván Amón"]
 language = "en"
 
