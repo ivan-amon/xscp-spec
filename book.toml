@@ -1,4 +1,11 @@
 [book]
 title = "XSCP Specification"
-authors = ["Ivan"]
+description = "Official specification for XSCP (XSCP Simple Chat Protocol)"
+authors = ["Iván Amón"]
 language = "en"
+
+[output.html]
+git-repository-url = "https://github.com/ivan-amon/xscp-spec"
+site-url = "https://docs.ivanamon.dev/"
+default-theme = "ayu"
+preferred-dark-theme = "ayu"
