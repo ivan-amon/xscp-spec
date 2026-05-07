@@ -8,4 +8,3 @@ language = "en"
 git-repository-url = "https://github.com/ivan-amon/xscp-spec"
 default-theme = "ayu"
 preferred-dark-theme = "ayu"
-copy-fonts = true
