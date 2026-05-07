@@ -3,7 +3,7 @@
 - [Introduction](intro.md)
 - [Underlying Transport Layer](transport.md)
 - [Data Format Encoding](data-format.md)
-- [PDU Definitions.md](pdu-definitions.md)
+- [PDU Definitions](pdu-definitions.md)
     - [Request PDUs](pdus/request.md)
     - [Response PDUs](pdus/response.md)
     - [Notification PDUs](pdus/notification.md)
