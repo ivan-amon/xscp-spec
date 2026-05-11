@@ -25,6 +25,16 @@ The Status Code is a numeric identifier indicating the outcome of the request.
 - **Range:** `0` – `599`.
 - **Function:** It allows the client to programmatically determine whether the request succeeded, failed, or requires further action, without having to interpret human-readable text.
 
+#### Available status codes:
+
+- `200`: The XSCP Request was processed successfully.
+- `400`: Bad XSCP Request.
+- `401`: Invalid Credentials.
+- `402`: Host exceeded auth attempts.
+- `500`: Internal XSCP server error. 
+
+
+
 ### 2. Reason Phrase
 
 The **Reason Phrase** is a short, human-readable description that complements the status code.
@@ -34,7 +44,9 @@ The **Reason Phrase** is a short, human-readable description that complements th
 - **Constraints:**
   - **Prohibited Characters:** Must not contain the pipe (`|`) character, as it would break the field segmentation.
   - **Prohibited Sequences:** Must not contain Carriage Return (`\r`) or Line Feed (`\n`), to prevent "PDU Smuggling" (injecting a second response into the same stream).
-- **Usage:** Intended for logging, debugging or display purposes. Clients **must not** rely on its exact content to drive logic — that is the role of the Status Code.
+- **Usage:** Intended for logging, debugging or display purposes. The reason phrase **should** be in capital letters. Clients **must not** rely on its exact content to drive logic — that is the role of the Status Code.
+
+
 
 ## Validation Logic (Client-Side)
 
