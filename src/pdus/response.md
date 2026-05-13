@@ -44,7 +44,7 @@ The **Reason Phrase** is a short, human-readable description that complements th
 - **Constraints:**
   - **Prohibited Characters:** Must not contain the pipe (`|`) character, as it would break the field segmentation.
   - **Prohibited Sequences:** Must not contain Carriage Return (`\r`) or Line Feed (`\n`), to prevent "PDU Smuggling" (injecting a second response into the same stream).
-- **Usage:** Intended for logging, debugging or display purposes. The reason phrase **should** be in capital letters. Clients **must not** rely on its exact content to drive logic — that is the role of the Status Code.
+- **Usage:** Intended for logging, debugging or display purposes. The reason phrase **should** be in **Title Case**. Clients **must not** rely on its exact content to drive logic — that is the role of the Status Code.
 
 
 
