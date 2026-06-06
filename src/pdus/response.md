@@ -12,7 +12,7 @@ XSCP responses are structured as a single line of text with a strict field-based
 +-----------------------------------------------------------------------+
 ```
 
-The two fields are delimited by a single pipe (`|`) and the line is terminated by `\r\n`. The total PDU size must not exceed **36 bytes** (delimiter and CRLF included).
+The two fields are delimited by a single pipe (`|`) and the line is terminated by `\r\n`. The total PDU size must not exceed **38 bytes** (delimiter and CRLF included).
 
 ## Field Specification
 
@@ -56,4 +56,4 @@ When a client receives a Response, it must validate the fields in this specific 
 2. **Segmentation:** Split the string using a single pipe. The result must contain exactly two segments.
 3. **Status Code Validation:** Verify that the first segment parses as a number and does not exceed `599`.
 4. **Reason Phrase Integrity:** Check that the second segment is at most 32 bytes and contains no forbidden characters.
-5. **Size Compliance:** Ensure the total PDU does not exceed 36 bytes.
+5. **Size Compliance:** Ensure the total PDU does not exceed 38 bytes.

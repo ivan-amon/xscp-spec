@@ -16,4 +16,4 @@ XSCP classifies communication into three distinct types:
 To ensure compatibility with low-memory devices and maintain high performance, XSCP enforces strict byte limits:
 
 * **Requests & Notifications:** Maximum of **512 bytes**.
-* **Responses:** Maximum of **36 bytes** (designed for status codes and brief metadata).
+* **Responses:** Maximum of **38 bytes** (designed for status codes and brief metadata).
